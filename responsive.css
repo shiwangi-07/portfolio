@@ -1,0 +1,591 @@
+@media (max-width: 950px) {
+    .page-heading {
+      font-size: 7rem;
+    }
+    .button {
+      padding-block: 0.8rem;
+      padding-inline: 2rem;
+      font-size: 2rem;
+      & i {
+        font-size: 2rem;
+      }
+    }
+  
+    /* ----homePage---- */
+    header {
+      margin-top: 2rem;
+    }
+    .heading-text h1 {
+      font-size: 9rem;
+      line-height: 9rem;
+    }
+  
+    #hero-text h5 {
+      font-size: 2.5rem;
+    }
+  
+    .circle {
+      height: 70rem;
+      width: 70rem;
+    }
+  
+    .home-circle {
+      height: 90vh;
+      width: 90vh;
+      bottom: -35vh;
+    }
+  
+    #scroll-element {
+      font-size: 1.6rem;
+    }
+  
+    #logo {
+      width: 7rem;
+      height: 7rem;
+    }
+    #logo-second-circle {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+    .nav li a,
+    .nav li h6,
+    .nav li a:after,
+    .nav li h6:after {
+      font-size: 2rem;
+    }
+  
+    /* ----aboutPage--- */
+  
+    #about-content {
+      margin-top: 3rem;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+    }
+  
+    #about-content-left {
+      flex: 30%;
+    }
+  
+    #about-content-left img {
+      width: 28rem;
+      height: 28rem;
+      border: 4px solid var(--beige);
+    }
+  
+    #about-content-right p {
+      font-size: 2rem;
+    }
+  
+    /* -----skillPage----- */
+  
+    #skill-content {
+      margin-top: 3rem;
+    }
+  
+    #skill-card-container {
+      /* flex-direction: column; */
+      justify-content: start;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1.5rem;
+    }
+  
+    .skill-card {
+      width: 35vw;
+      height: 30vw;
+    }
+  
+    .skill-card h3 {
+      font-size: 3rem;
+    }
+  
+    .bricks {
+      font-size: 2rem;
+      padding-inline: 1.6rem;
+      padding-block: 0.5rem;
+    }
+  
+    #skill-content p {
+      margin-top: 2rem;
+      font-size: 2rem;
+      width: 100%;
+      text-align: left;
+    }
+  
+    /* projectPage */
+  
+    #project-card-container {
+      margin-top: 2rem;
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+      justify-content: start;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .project-card {
+      width: 40vw;
+      border-radius: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+    }
+  
+    .card-content h2 {
+      font-size: 2.5rem;
+      padding-left: 1rem;
+    }
+  
+    .card-content p {
+      font-size: 1.7rem;
+      padding-inline: 1rem;
+    }
+  
+    .project-button {
+      margin-left: 1rem;
+      border: 1px solid var(--brown);
+    }
+  
+    #contact-page h1 {
+      font-size: 11rem;
+    }
+  
+    .contact-subheading {
+      font-size: 2.2rem;
+    }
+  
+    .footer-navigation {
+      width: 80%;
+    }
+  
+    .footer-navigation h4 {
+      font-size: 2.2rem;
+    }
+  
+    #copyright {
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 650px) {
+    .cursor-dot {
+      display: none;
+    }
+    .page-heading {
+      font-size: 8rem;
+    }
+    .button {
+      padding-block: 0.8rem;
+      padding-inline: 2rem;
+      font-size: 2.5rem;
+      & i {
+        font-size: 3rem;
+      }
+    }
+  
+    /* ----homePage---- */
+    header {
+      margin-top: 3rem;
+    }
+    .heading-text h1 {
+      font-size: 9rem;
+      line-height: 9rem;
+    }
+  
+    #hero-text h5 {
+      font-size: 3rem;
+    }
+  
+    .circle {
+      height: 70rem;
+      width: 70rem;
+    }
+  
+    .home-circle {
+      height: 90vh;
+      width: 90vh;
+      bottom: -40vh;
+    }
+  
+    #scroll-element {
+      font-size: 2.5rem;
+    }
+  
+    #logo {
+      width: 8rem;
+      height: 8rem;
+    }
+    #logo-second-circle {
+      width: 6rem;
+      height: 6rem;
+    }
+  
+    .nav li a,
+    .nav li h6,
+    .nav li a:after,
+    .nav li h6:after {
+      font-size: 2.5rem;
+    }
+  
+    /* ----aboutPage--- */
+  
+    #about-content {
+      margin-top: 5rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+    }
+  
+    #about-content-left img {
+      width: 30rem;
+      height: 30rem;
+      border: 4px solid var(--beige);
+    }
+  
+    #about-content-right {
+      width: 100%;
+    }
+    #about-content-right p {
+      font-size: 2.5rem;
+    }
+  
+    /* -----skillPage----- */
+  
+    #skill-content {
+      margin-top: 5rem;
+      width: 100%;
+    }
+  
+    #skill-card-container {
+      justify-content: start;
+      align-items: center;
+      gap: 1.5rem;
+    }
+  
+    .skill-card {
+      width: 40vw;
+      height: 35vw;
+    }
+  
+    .skill-card h3 {
+      font-size: 3.5rem;
+    }
+  
+    .bricks {
+      font-size: 2.3rem;
+      padding-inline: 2rem;
+      padding-block: 0.7rem;
+    }
+  
+    #skill-content p {
+      margin-top: 2rem;
+      font-size: 2.5rem;
+      width: 100%;
+      text-align: left;
+    }
+  
+    /* projectPage */
+  
+    #project-card-container {
+      width: 100%;
+      margin-top: 4rem;
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+      justify-content: start;
+      align-items: center;
+      gap: 3rem;
+    }
+  
+    .project-card {
+      width: 42vw;
+      border-radius: 2rem;
+      -webkit-border-radius: 2rem;
+      -moz-border-radius: 2rem;
+      -ms-border-radius: 2rem;
+      -o-border-radius: 2rem;
+    }
+  
+    .card-content h2 {
+      font-size: 3.5rem;
+      padding-left: 1rem;
+    }
+  
+    .card-content p {
+      font-size: 2.4rem;
+      padding-inline: 1rem;
+    }
+  
+    .project-button {
+      margin-left: 1rem;
+      border: 1px solid var(--brown);
+    }
+  
+    /* contactPage */
+    #transparent-page {
+      height: 70vh;
+    }
+  
+    #contact-page {
+      height: 70vh;
+    }
+  
+    #contact-page h1 {
+      font-size: 11rem;
+    }
+  
+    .contact-subheading {
+      font-size: 3rem;
+    }
+  
+    .footer-navigation {
+      width: 80%;
+    }
+  
+    .footer-navigation h4 {
+      text-align: center;
+      font-size: 3rem;
+    }
+    .footer-navigation ul {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #copyright {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 435px) {
+    .cursor-dot {
+      display: none;
+    }
+    .page-heading {
+      font-size: 10rem;
+    }
+    .button {
+      padding-block: 1rem;
+      padding-inline: 2.2rem;
+      font-size: 3rem;
+      & i {
+        font-size: 3rem;
+      }
+    }
+  
+    /* ----homePage---- */
+    header {
+      margin-top: 5rem;
+    }
+  
+    #home-page {
+      height: 100svh;
+    }
+  
+    .heading-text h1 {
+      font-size: 10.3rem;
+      line-height: 10.3rem;
+    }
+  
+    #hero-text h5 {
+      font-size: 3.5rem;
+    }
+  
+    .circle {
+      height: 70rem;
+      width: 70rem;
+    }
+  
+    .home-circle {
+      height: 90vh;
+      width: 90vh;
+      bottom: -40vh;
+    }
+  
+    #scroll-element {
+      font-size: 3rem;
+    }
+  
+    #logo {
+      width: 12rem;
+      height: 12rem;
+    }
+    #logo-second-circle {
+      width: 8rem;
+      height: 8rem;
+    }
+  
+    .nav li a,
+    .nav li h6,
+    .nav li a:after,
+    .nav li h6:after {
+      font-size: 3.5rem;
+    }
+  
+    /* ----aboutPage--- */
+  
+    #about-content {
+      margin-top: 5rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+    }
+  
+    #about-content-left img {
+      width: 35rem;
+      height: 35rem;
+      border: 5px solid var(--beige);
+    }
+    #about-content-right {
+      width: 100%;
+    }
+  
+    #about-content-right p {
+      font-size: 3rem;
+    }
+  
+    /* -----skillPage----- */
+  
+    #skill-content {
+      margin-top: 5rem;
+      width: 100%;
+    }
+  
+    #skill-card-container {
+      /* flex-direction: column; */
+      justify-content: start;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .skill-card {
+      width: 40vw;
+      height: 35vw;
+    }
+  
+    .skill-card h3 {
+      font-size: 4rem;
+    }
+  
+    .bricks {
+      font-size: 2.4rem;
+      padding-inline: 2.2rem;
+      padding-block: 1rem;
+    }
+  
+    #skill-content p {
+      margin-top: 3rem;
+      font-size: 3rem;
+      width: 100%;
+      text-align: left;
+    }
+  
+    /* projectPage */
+  
+    #project-page {
+      padding-bottom: 5rem;
+    }
+    #project-card-container {
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 5rem;
+    }
+  
+    .project-card {
+      width: 80vw;
+      border-radius: 3rem;
+      -webkit-border-radius: 3rem;
+      -moz-border-radius: 3rem;
+      -ms-border-radius: 3rem;
+      -o-border-radius: 3rem;
+    }
+  
+    .card-content h2 {
+      font-size: 5rem;
+      padding-left: 3rem;
+    }
+  
+    .card-content p {
+      font-size: 3rem;
+      padding-inline: 3rem;
+    }
+  
+    .project-button {
+      margin-left: 3rem;
+      border: 1px solid var(--brown);
+    }
+  
+    /* contactPage */
+    #transparent-page {
+      height: 80vh;
+    }
+  
+    #contact-page {
+      height: 80vh;
+    }
+  
+    .contact-circle {
+      height: 90vh;
+      width: 90vh;
+      bottom: 0vh;
+    }
+  
+    #contact-page h1 {
+      font-size: 12rem;
+    }
+  
+    .contact-subheading {
+      font-size: 3.5rem;
+    }
+  
+    footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .footer-navigation {
+      width: 100%;
+    }
+  
+    .footer-navigation h4 {
+      text-align: center;
+      font-size: 4rem;
+    }
+    .footer-navigation ul {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    #copyright {
+      font-size: 2.7rem;
+    }
+    .page:not(#home-page, #contact-page) {
+      padding-block: 10rem;
+      padding-inline: 7.2rem;
+    }
+  }
+  @media (max-width: 350px) {
+    .page:not(#home-page, #contact-page) {
+      padding-block: 10rem;
+      padding-inline: 7.2rem;
+    }
+    #transparent-page {
+      height: 60vh;
+    }
+  
+    #contact-page {
+      height: 60vh;
+    }
+  
+    .contact-circle {
+      top: 30%;
+    }
+  
+    .skill-circle {
+      height: 40vh;
+      width: 40vh;
+    }
+  }

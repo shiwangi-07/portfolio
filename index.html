@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHIWANGI | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="lenis-style.css" />
+  </head>
+  <body>
+    <div id="preloader" class="layers">
+      <p>Loading Portfolio.</p>
+      <h2 class="counter">0%</h2>
+    </div>
+    <div class="layers" id="beige"></div>
+    <div class="layers" id="brown"></div>
+    <div class="cursor-dot"></div>
+    <div id="main">
+      <div id="home-page" class="page">
+        <div class="circle home-circle"></div>
+        <header>
+          <div id="logo">
+            <div id="logo-second-circle"></div>
+          </div>
+          <ul class="nav">
+            <li><h6 class="scrollTo-about">About</h6></li>
+            <li><h6 class="scrollTo-skill">What I Know</h6></li>
+            <li><h6 class="scrollTo-projects">Projects</h6></li>
+            <li><h6 class="scrollTo-contact">Get In Touch</h6></li>
+            <li><a href="./shiwangi_resume.pdf" download>Resume</a></li>
+          </ul>
+        </header>
+        <div id="hero-text">
+          <div class="heading-text"><h1>Hi There, I am</h1></div>
+          <div class="heading-text"><h1>SHIWANGI</h1></div>
+
+          <h5>
+            <span class="webdev-underline"
+              >A Programmer and Web Developer.</span
+            >
+          </h5>
+        </div>
+
+        <div id="scroll-element">
+          <i class="fa-solid fa-arrow-down"></i>
+          <p>Scroll</p>
+        </div>
+      </div>
+      <div id="about-page" class="page">
+        <h1 class="page-heading about-heading">About Me.</h1>
+        <div id="about-content">
+          <div id="about-content-left">
+            <img src="images/my-image.jpg" alt="Shiwangi profile photo" />
+          </div>
+          <div id="about-content-right">
+            <p>
+              I am Shiwangi,a BTech student in the 2022-26 batch at IIIT
+              Bhagalpur. My passion lies in web development, and I possess a
+              versatile skill set that enables me to create dynamic and engaging
+              web experiences. I'm proficient in technologies like HTML, CSS,
+              JavaScript, Node.js, Express.js, React.js, and MongoDB.
+            </p>
+            <p>
+              Beyond development, I'm also the club lead of PyC (college coding
+              club) and the event lead of GFG Chapter IIITBH. My involvement in
+              these organizations has allowed me to hone my technical skills and
+              leadership abilities.
+            </p>
+            <div class="button resume-button">
+              <a href="./shiwangi_resume.pdf" download=""
+                >Resume <i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skill-page" class="page">
+        <div class="circle skill-circle"></div>
+        <h1 class="page-heading skill-heading">What I Know.</h1>
+        <div id="skill-content">
+          <div id="skill-card-container">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <div class="brick-container">
+                <div class="bricks">HTML</div>
+                <div class="bricks">Tailwind css</div>
+                <div class="bricks">JavaScript</div>
+                <div class="bricks">ReactJS</div>
+                <div class="bricks">Bootstrap</div>
+                <div class="bricks">CSS</div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <div class="brick-container">
+                <div class="bricks">ExpressJS</div>
+                <div class="bricks">NodeJS</div>
+                <div class="bricks">Bootstrap</div>
+                <div class="bricks">MongoDB</div>
+              </div>
+            </div>
+            <div class="skill-card">
+              <h3>Desigh & Other</h3>
+              <div class="brick-container">
+                <div class="bricks">GSAP</div>
+                <div class="bricks">Git</div>
+                <div class="bricks">Figma</div>
+                <div class="bricks">C++</div>
+                <div class="bricks">Python</div>
+              </div>
+            </div>
+          </div>
+          <p>
+            I can craft dynamic and engaging web experiences for startups and
+            businesses using the MERN stack. I specialize in building responsive
+            websites with seamless animations powered by GSAP, ensuring a
+            captivating user experience on any device.
+          </p>
+        </div>
+      </div>
+      <div id="project-page" class="page">
+        <h1 class="page-heading project-heading">My Projects.</h1>
+        <div id="project-card-container">
+          <div class="project-card">
+            <img src="images/ecommerce.jpg" alt="" />
+            <div class="card-content">
+              <h2>E-Commerce Website</h2>
+              <p>
+                It is a comprehensive E-Commerce Website using the MERN stack,
+                implementing features like shopping cart, product search, chat,
+                real-time sales charts, and PayPal integration. It has advanced
+                functionalities like image uploads, product attributes, and
+                multilevel categories.
+              </p>
+              <div class="project-links">
+                <div class="button project-button">
+                  <a
+                    href="https://github.com/shiwangi-07/E-Commerce-Website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </div>
+                <div class="button project-button view-button">
+                  <a href="https://frontend-oq5o.onrender.com/">View Live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="images/blog.jpg" alt="" />
+            <div class="card-content">
+              <h2>Blog Website</h2>
+              <p>
+                This full stack web application, developed with HTML, CSS,
+                JavaScript, and React.js on the frontend and Supabase on the
+                backend, allows users to upload facts, attach trustworthy source
+                links, categorize them, and engage with them through reactions
+                and voting.
+              </p>
+              <div class="project-links">
+                <div class="button project-button">
+                  <a
+                    href="https://github.com/shiwangi-07/witty-facts"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Github</a
+                  >
+                </div>
+                <div class="button project-button view-button">
+                  <a href="https://witty-facts.netlify.app/">View Live</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="transparent-page"></div>
+    </div>
+    <div id="contact-page" class="page">
+      <div class="circle contact-circle"></div>
+      <p class="contact-subheading">Got a project? Want to hire me?</p>
+      <h1>GET IN TOUCH.</h1>
+      <footer>
+        <div class="footer-navigation">
+          <h4>Navigation</h4>
+          <ul class="nav footer-nav-links">
+            <li><h6 class="scrollTo-home">Home</h6></li>
+            <li><h6 class="scrollTo-about">About</h6></li>
+            <li><h6 class="scrollTo-skill">What I Know</h6></li>
+            <li><h6 class="scrollTo-projects">Projects</h6></li>
+            <li><a href="./shiwangi_resume.pdf" download>Resume</a></li>
+          </ul>
+        </div>
+        <div class="footer-navigation">
+          <h4>Socials</h4>
+          <ul class="nav footer-social-links">
+            <li>
+              <a href="https://www.linkedin.com/in/shiwangi07/" target="_blank"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/shiwangi-07" target="_blank"
+                >Github</a
+              >
+            </li>
+            <li>
+              <a href="https://leetcode.com/u/_ciara_/" target="_blank"
+                >LeetCode</a
+              >
+            </li>
+            <li><a href="mailto:shiwangi1204@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </footer>
+      <p id="copyright">shiwangi1204@gmail.com © 2024 All rights reserved.</p>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
